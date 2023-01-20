@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React huv uyg uiy ug ug uguiy guy uyg hgkjhg ufyitf if fiugk
+          uygkug ug ufuit iuy giuyg iuyg kuyg ukguu
         </a>
       </header>
     </div>
