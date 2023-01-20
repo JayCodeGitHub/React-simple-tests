@@ -1,10 +1,9 @@
-export default {
+{
     "env": {
         "browser": true,
         "es2021": true
     },
     "extends": [
-        
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
@@ -19,8 +18,17 @@ export default {
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "react-hooks",
+        "@typescript-eslint",
+        "prettier"
     ],
     "rules": {
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "camelcase": "error",
+        "spaced-comment": "off",
+        "quotes": ["error", "single"],
+        "no-duplicate-imports": "off",
+        "no-undef": "off"
     }
 }

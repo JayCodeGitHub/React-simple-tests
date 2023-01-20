@@ -1,8 +1,13 @@
-import React from "react";
-import "../Root.css";
+import React from 'react'
+import '../Root.css'
+import Counter from '../components/Counter'
 
 function Root() {
-  return <h1>Root</h1>;
+  return (
+    <div className='root'>
+      <Counter />
+    </div>
+  )
 }
 
-export default Root;
+export default Root
